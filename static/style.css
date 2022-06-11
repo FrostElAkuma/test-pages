@@ -1,0 +1,91 @@
+/*To get rid of margin and padding in the whole page not only the body*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif; /*REALLY AMAZING FONT*/
+    font-weight: 400; /*400 is standard weight 700 is bold*/
+}
+
+.mainImg {
+    /*Using background image in css is better than putting the image in html. Because in Css it is a background image and you can add elemetns over it*/
+    background-image: url("https://imgefx.errorfixer.co/wp-content/uploads/2022/05/season-of-the-haunted-armor-set.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+}
+
+.drang {
+    background-image: url("https://static2.srcdn.com/wordpress/wp-content/uploads/2022/05/Destiny-2-How-To-Get-The-Drang-Baroque-Sidearm-God-Rolls.jpg?q=50&fit=crop&w=767&h=450&dpr=1.5");
+
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nContainment {
+    background-image: url("https://www.gamespot.com/a/uploads/original/1581/15811374/3981880-seasonofthehauntednightmarecontainmentthumb.jpg");
+}
+
+.upgrade {
+    background-image: url("https://alpes-holidays.com/wp-content/uploads/2022/06/The-Destiny-2-Season-Of-The-Haunted-Economy-Does-Not.jpg");
+}
+
+h1 {
+    background: linear-gradient(35deg, #303030, #181818);
+    padding: 18px;
+    color:white;
+    font-size: 3.3vh;
+    text-transform: uppercase;
+}
+
+
+.mainImg, .drang, .upgrade, .nContainment{
+    
+    background-repeat: no-repeat; /*So the image is not duplicated*/
+    background-size: cover;
+    width: 100%;
+    min-height: 10%;
+    height: 100vh;
+    background-position: center; /*I am smart what can i say*/
+    
+    /*
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+
+    background-attachment: fixed;
+    opacity: 0.9;
+
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.border {
+    background: linear-gradient(35deg, #303030, #181818);
+    color: White;
+    padding: 18px;
+    font-size: 3.3vw;
+    text-transform: uppercase;
+    /*letter-spacing: 10px;*/ /*I do not like letter spacing*/
+}
+
+h2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text {
+    background: linear-gradient(35deg, #303030, #181818);
+    padding: 50px 80px;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
